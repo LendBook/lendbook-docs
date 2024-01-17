@@ -3,10 +3,13 @@ site_name: LendBook Documentation
 
 
 nav:
-  - Getting Started:
-    - Understanding LLOB: base-features/understanding-llob.md  
-  - Borrower:
-    - Understanding Borrowing: borrower/understanding-borrowing.md
+  - INTRODUCTION:
+    - What is LendBook ?: base-features/understanding-llob.md  
+    - Borrowers: borrower/benefits-borrower.md
+    - Lenders: lender/benefits-lender.md
+    - How it works?: base-features/understanding-llob.md  
+    - Use Cases: base-features/understanding-llob.md  
+
 
 
 
@@ -14,9 +17,11 @@ theme:
   name: material
   logo: "images/logo_white.png"
   favicon: "images/logo_white.png"
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.sections # in order to see all the sections at the same time (prefer not to use it)
-    #- navigation.expand (to see all the sections when .sections is unable)
+    - navigation.expand #(to see all the sections when .sections is unable)
     - navigation.instant
     - navigation.footer
     - toc.integrate

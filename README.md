@@ -23,7 +23,7 @@ Once your branch is pushed to main branch, the documentation should shortly be a
 
 
 
-##TODO
+## TODO
 
 Before sharing the documentation on twitter, we need to implement the social card : https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/
 
