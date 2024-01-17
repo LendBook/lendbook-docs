@@ -1,9 +1,24 @@
 site_name: LendBook Documentation
+
+
+
+nav:
+  - Getting Started:
+    - Understanding LLOB: base-features/understanding-llob.md  
+  - Borrower:
+    - Understanding Borrowing: borrower/understanding-borrowing.md
+
+
+
 theme:
   name: material
+  logo: "images/logo_white.png"
+  favicon: "images/logo_white.png"
   features:
-    - navigation.tabs
-    - navigation.sections
+    - navigation.sections # in order to see all the sections at the same time (prefer not to use it)
+    #- navigation.expand (to see all the sections when .sections is unable)
+    - navigation.instant
+    - navigation.footer
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -52,5 +67,9 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/lendbook
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/lend_book
+
+
+repo_name: LendBook/lendbook-docs
+repo_url: https://github.com/LendBook/lendbook-docs
