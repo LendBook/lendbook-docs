@@ -19,4 +19,4 @@ mkdocs serve
 ```
 
 
-Once your branch is pushed to main branch, the documentation will be automatically updated.
+Once your branch is pushed to main branch, the documentation should shortly be available at: https://LendBook.github.io/lendbook-docs/
