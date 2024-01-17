@@ -3,12 +3,12 @@ site_name: LendBook Documentation
 
 
 nav:
-  - INTRODUCTION:
-    - What is LendBook ?: base-features/understanding-llob.md  
-    - Borrowers: borrower/benefits-borrower.md
-    - Lenders: lender/benefits-lender.md
-    - How it works?: base-features/understanding-llob.md  
-    - Use Cases: base-features/understanding-llob.md  
+  - Introduction: index.md
+  - What is LendBook ?: base-features/understanding-llob.md 
+  - How it works?: base-features/how-it-works.md   
+  - Borrowers: borrower/benefits-borrower.md
+  - Lenders: lender/benefits-lender.md
+  - Use Cases: base-features/understanding-llob.md  
 
 
 
@@ -17,6 +17,9 @@ theme:
   name: material
   logo: "images/logo_white.png"
   favicon: "images/logo_white.png"
+  font:
+    text: Roboto
+    code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
   features:
@@ -61,6 +64,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
