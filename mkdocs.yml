@@ -5,10 +5,15 @@ site_name: LendBook Documentation
 nav:
   - Introduction: index.md
   - What is LendBook ?: base-features/understanding-llob.md 
-  - How it works?: base-features/how-it-works.md   
-  - Borrowers: borrower/benefits-borrower.md
-  - Lenders: lender/benefits-lender.md
-  - Use Cases: base-features/understanding-llob.md  
+  - How it works?: base-features/how-it-works.md  
+  - Benefits for market participants: 
+    - Borrowers: borrower/benefits-borrower.md
+    - Lenders: lender/benefits-lender.md
+    - Takers: lender/benefits-lender.md
+  - Use Cases: lender/benefits-lender.md
+  - Advantages:
+    - stop loss: lender/benefits-lender.md
+    - AAA: lender/benefits-lender.md
 
 
 
@@ -23,7 +28,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - navigation.sections # in order to see all the sections at the same time (prefer not to use it)
+    #- navigation.sections # in order to see all the sections at the same time (prefer not to use it)
     - navigation.expand #(to see all the sections when .sections is unable)
     - navigation.instant
     - navigation.footer

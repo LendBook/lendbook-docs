@@ -12,3 +12,6 @@ TBD
 
 ### Take profit
 
+### liquidations:
+
+interest-based liquidation vs price-based liquidation
