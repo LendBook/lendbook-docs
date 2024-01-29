@@ -4,7 +4,7 @@ site_name: LendBook Documentation
 
 nav:
   - Introduction: index.md
-  - What is LendBook ?: base-features/understanding-llob.md 
+  - What is LendBook ?: base-features/what-is-lendbook.md 
   - How it works?: base-features/how-it-works.md  
   - Benefits for market participants: 
     - Borrowers: borrower/benefits-borrower.md
