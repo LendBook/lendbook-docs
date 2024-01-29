@@ -10,7 +10,7 @@ In other words, it can be seen as the fusion of a Limit Order Book and a lending
 
 
 <figure markdown>
-  ![Image title](/images/meme_panda.png){ width="400" }
+  ![Image title](../images/meme_panda.png){ width="400" }
 </figure>
 
 
