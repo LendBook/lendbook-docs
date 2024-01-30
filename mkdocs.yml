@@ -3,9 +3,18 @@ site_name: LendBook Documentation
 
 
 nav:
-  - Introduction: index.md
+  - Introduction | TLDR: index.md
   - What is LendBook ?: base-features/what-is-lendbook.md 
-  - How it works?: base-features/how-it-works.md  
+  - How it works?: #base-features/how-it-works.md 
+    - Market participants: core-concepts/market-participants.md
+    - Pools of orders: core-concepts/pools-of-orders.md
+    - Main Rules: core-concepts/rules.md
+    - Liquidation: core-concepts/liquidation.md
+    - Interest Rates: core-concepts/interest-rates.md
+
+  - Borrower: user-borrower/borrower.md
+  - Lender: user-lender/lender.md
+  - Taker: user-taker/taker.md 
   - Benefits for market participants: 
     - Borrowers: borrower/benefits-borrower.md
     - Lenders: lender/benefits-lender.md
