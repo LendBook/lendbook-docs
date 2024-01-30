@@ -11,7 +11,8 @@ nav:
     - Main Rules: core-concepts/rules.md
     - Liquidation: core-concepts/liquidation.md
     - Interest Rates: core-concepts/interest-rates.md
-
+  - .:
+    - Lender: user-lender/lender.md
   - Borrower: user-borrower/borrower.md
   - Lender: user-lender/lender.md
   - Taker: user-taker/taker.md 
@@ -37,7 +38,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    #- navigation.sections # in order to see all the sections at the same time (prefer not to use it)
+    - navigation.sections # in order to see all the sections at the same time (prefer not to use it)
     - navigation.expand #(to see all the sections when .sections is unable)
     - navigation.instant
     - navigation.footer
@@ -80,8 +81,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       
 extra_css:
   - stylesheets/extra.css

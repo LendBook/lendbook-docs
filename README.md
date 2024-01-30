@@ -8,7 +8,7 @@ mkdocs uses python.
 In order to run the website locally, please install the mkdocs-material package in a virtual env.
 
 ```
-conda create --name mkdocs-env python=3.7
+conda create --name mkdocs-env python=3.10
 conda activate mkdocs-env
 pip install mkdocs-material
 ```

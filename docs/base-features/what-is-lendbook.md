@@ -1,5 +1,3 @@
-
-
 [//]: <> (<h2 style="font-weight: bold;">What is a LendBook ?</h2>)
 
 LendBook is a **Lending Limit Order Book (LLOB)**. It's a non-custodial and permissionless lending protocol that enables users to borrow limit orders’ assets collateralized by their own limit orders. 
