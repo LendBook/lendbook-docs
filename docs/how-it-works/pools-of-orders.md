@@ -11,7 +11,7 @@ The interest rate is calculated per pool. It depends on the pool's utilisation r
     
     Assuming the market price is 2110, the 4 pools that are close to this price are : 1818, 2000 (=1818x1.10), 2200 (=2000x1.10), and 2420 (=2200x1.1). 
 
-    :material-numeric-1-circle: Depending on Alice's strategy, Alice can deposit assets in buy orders at limit prices 2000 or 1818 or even under (but not in between). 
+    :material-numeric-1-circle: Depending on Alice's strategy, Alice can deposit assets in buy orders at limit prices of 2000 or 1818 or even under (but not in between). 
     
     :material-numeric-2-circle: And depending on Bob's strategy, Bob can deposit his collateral in sell orders at limit prices of 2200 or 2420 or even above (but not in between).
 

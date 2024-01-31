@@ -1,6 +1,6 @@
 There are three types of market participants in LendBook: **lenders**, **borrowers**, and **takers**.
 
-*Below is a diagram that encapsulates the relationship of the market participants and LendBook, for a USDC/ETH market (here lenders can lend USDC, borrowers can borrow USDC with ETH as collateral, and takers can trade USDC for ETH and vice versa).*
+*Below is a diagram that encapsulates the relationship of the market participants and LendBook, for a USDC/ETH market (Here lenders can lend USDC, borrowers can borrow USDC with ETH as collateral, and takers can trade USDC for ETH and vice versa).*
 
 <figure markdown>
   ![Image title](../images/market-participants-1.png)
