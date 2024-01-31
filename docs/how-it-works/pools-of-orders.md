@@ -7,9 +7,9 @@ This multiplication factor is unique for each pair of assets and it is defined a
 The interest rate is calculated per pool. It depends on the pool's utilisation rate. **Borrowers who borrow from a pool pay interest rates to the lenders in that pool.**
 
 !!! note "Example"
-    For the ETH/USDC market, the step between each pool is defined as 10%.
+    For the ETH/USDC market, the step between each pool is defined as 10% (meaning x1.10).
     
-    Assuming the market price is 2110, the 4 pools that are close to this price are : 1818, 2000 (=1818x1.10), 2200 (=2000x1.10), and 2420 (=2200x1.1). 
+    Assuming the market price is 2110, the 4 pools that are close to this price are : 1818, 2000 (=1818x1.10), 2200 (=2000x1.10), and 2420 (=2200x1.10). 
 
     :material-numeric-1-circle: Depending on Alice's strategy, Alice can deposit assets in buy orders at limit prices of 2000 or 1818 or even under (but not in between). 
     
