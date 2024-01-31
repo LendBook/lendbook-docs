@@ -27,7 +27,7 @@ Users can lend and borrow limit orders' assets :
 
 
 <figure markdown>
-  ![Image title](../images/what-is-lendbook-1.png){ width="400" }
+  ![Image title](../images/what-is-lendbook-2.png)
   <figcaption>(1) Alice posts a buy order at price 1800 USDC. (2) Bob places some ETH as a sell order at 2400. With this ETH as collateral, he can then borrow USDC from Alice.</figcaption>
 </figure>
 
