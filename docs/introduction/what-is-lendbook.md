@@ -22,23 +22,12 @@ With a lending protocol in Decentralised Finance, you can lend or borrow money u
 Users can lend and borrow limit orders' assets :
 
 * Lenders post limit orders at specified prices. These orders can be borrowed.
-* Borrowers place limit orders as collateral on the other side of the order book.
-* When part or all of the assets for a specific order price are taken, the positions borrowing against those orders are liquidated. Collaterals are thus transferred to the lenders.
+* Borrowers place limit orders as collateral on the other side of the order book in order to borrow assets posted by lenders.
+* If the market price reaches the limit price of a lender's order, lender's order is filled, the positions borrowing against this order are liquidated and the collateral is transferred to the lender.
 
 
 <figure markdown>
-  ![Image title](../images/what-is-lendbook_1.png){ width="400" }
+  ![Image title](../images/what-is-lendbook-1.png){ width="400" }
   <figcaption>(1) Alice posts a buy order at price 1800 USDC. (2) Bob places some ETH as a sell order at 2400. With this ETH as collateral, he can then borrow USDC from Alice.</figcaption>
 </figure>
 
-## **Advantages from existing lending protocols**
-
-
-It makes a huge difference compared to existing lending protocols. This new financial primitive offers users multiple benefits: 
-
-* **stop loss orders with guaranteed stop price**
-* **low liquidation penalty**
-* **high loan-to-value and leverage**
-* **interest-bearing limit orders**
-
-The protocol is immune to the risk of bad debt, there is no off-chain risk management.

@@ -1,5 +1,36 @@
-There are three different types of market participants :
+There are three types of market participants in LendBook: **lenders**, **borrowers**, and **takers**.
 
-* **Lenders :** They post limit orders at specified prices. These orders can be borrowed, which earns them interest.
-* **Borrowers :** They post limit orders at specified prices on the other side of the order book. They earn interest rates when orders are borrowed. 
-* **Takers :** They take limit orders which are in the LLOB. 
+Below is a diagram that encapsulates the relationship of the market participants and LendBook, for a USDC/ETH market (here lenders can lend USDC, borrowers can borrow USDC with ETH as collateral, and takers can trade USDC for ETH and vice versa).
+
+<figure markdown>
+  ![Image title](../images/market-participants-1.png)
+</figure>
+
+
+* **Lenders :** 
+
+    They post limit orders at specified prices. These orders can be borrowed, which earns them interest.
+
+    [:octicons-info-16: More information on lenders](../../users/lender){ .md-button }
+
+
+<br>
+
+* **Borrowers :** 
+
+    They post limit orders at specified prices on the other side of the order book. 
+
+    They pay interest rates when orders are borrowed. 
+
+    [:octicons-info-16: More information on borrowers](../../users/borrower){ .md-button }
+    
+<br>
+
+* **Takers :** 
+
+    They can trade assets when market price reaches the limit price of orders they want to take.  They can take all or a portion of the non-borrowed part of limit orders. No fees applied on the trade. 
+    
+    [:octicons-info-16: More information on takers](../../users/taker){ .md-button }
+
+<br>
+
