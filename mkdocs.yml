@@ -5,24 +5,30 @@ site_name: LendBook Documentation
 nav:
   - Introduction:
     - Intro | TLDR: index.md
-    - What is LendBook ?: base-features/what-is-lendbook.md 
+    - What is LendBook ?: introduction/what-is-lendbook.md 
   - How it works?: #base-features/how-it-works.md 
-    - Market participants: core-concepts/market-participants.md
-    - Pools of orders: core-concepts/pools-of-orders.md
-    - Main Rules: core-concepts/rules.md
-    - Liquidation: core-concepts/liquidation.md
-    - Interest Rates: core-concepts/interest-rates.md
-  - Borrower: user-borrower/borrower.md
-  - Lender: user-lender/lender.md
-  - Taker: user-taker/taker.md 
-  - Benefits for market participants: 
-    - Borrowers: borrower/benefits-borrower.md
-    - Lenders: lender/benefits-lender.md
-    - Takers: lender/benefits-lender.md
-  - Use Cases: lender/benefits-lender.md
-  - Advantages:
-    - stop loss: lender/benefits-lender.md
-    - AAA: lender/benefits-lender.md
+    - Market participants: how-it-works/market-participants.md
+    - Pools of orders: how-it-works/pools-of-orders.md
+    - Main Rules: how-it-works/rules.md
+    - Liquidations: how-it-works/liquidation.md
+    - Interest Rates: how-it-works/interest-rates.md
+  - Users:
+    - Borrower: users/borrower.md
+    - Lender: users/lender.md
+    - Taker: users/taker.md 
+  - Advantages of LendBook: 
+    - Minimized governance: advantages/governance.md
+    - No bad debt / No off-chain risk management: advantages/risk-management.md
+    - Simple debt management: advantages/debt-management.md
+    - Low liquidation cost: advantages/liquidation-cost.md
+    - High leverage: advantages/leverage.md
+    - High Loan-To-Value: advantages/loan-to-value.md
+    - Soft-pegged assets: advantages/soft-pegged-assets.md
+    - Automated-market-making: advantages/automated-market-making.md
+    - Addressable-market: advantages/addressable-market.md
+  - Use Cases: 
+    - Stop loss: use-cases/stop-loss.md
+    - Take profit: use-cases/take-profit.md
 
 
 
