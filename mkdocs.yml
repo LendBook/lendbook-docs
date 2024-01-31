@@ -3,16 +3,15 @@ site_name: LendBook Documentation
 
 
 nav:
-  - Introduction | TLDR: index.md
-  - What is LendBook ?: base-features/what-is-lendbook.md 
+  - Introduction:
+    - Intro | TLDR: index.md
+    - What is LendBook ?: base-features/what-is-lendbook.md 
   - How it works?: #base-features/how-it-works.md 
     - Market participants: core-concepts/market-participants.md
     - Pools of orders: core-concepts/pools-of-orders.md
     - Main Rules: core-concepts/rules.md
     - Liquidation: core-concepts/liquidation.md
     - Interest Rates: core-concepts/interest-rates.md
-  - .:
-    - Lender: user-lender/lender.md
   - Borrower: user-borrower/borrower.md
   - Lender: user-lender/lender.md
   - Taker: user-taker/taker.md 
@@ -56,13 +55,13 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode   
       primary: custom
-      accent: purple 
-    - scheme: slate 
+      accent: custom
+    - scheme: slate  #dark
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode 
       primary: custom
-      accent: lime
+      accent: custom
 
 
 

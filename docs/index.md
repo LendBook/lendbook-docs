@@ -1,4 +1,4 @@
-## **Welcome to LendBook protocol**
+## **Intro**
 
 LendBook protocol was developed by the Breaking Lab team. This protocol has been developed to **solve two major problems** associated with lending protocols:
 
