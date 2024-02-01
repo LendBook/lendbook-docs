@@ -10,8 +10,8 @@ nav:
     - Market participants: how-it-works/market-participants.md
     - Pools of orders: how-it-works/pools-of-orders.md
     - Main Rules: how-it-works/rules.md
-    - Liquidations: how-it-works/liquidation.md
     - Interest Rates: how-it-works/interest-rates.md
+    - Liquidations: how-it-works/liquidation.md
   - Users:
     - Borrower: users/borrower.md
     - Lender: users/lender.md
@@ -35,8 +35,8 @@ nav:
 
 theme:
   name: material
-  logo: "images/logo_white.png"
-  favicon: "images/logo_white.png"
+  logo: "images/logo.png"
+  favicon: "images/logo.png"
   font:
     text: Roboto
     code: Roboto Mono

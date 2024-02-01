@@ -1,0 +1,1 @@
+Interest rates are shared between all the lenders of a pool.
