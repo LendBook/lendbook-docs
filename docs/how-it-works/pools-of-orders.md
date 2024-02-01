@@ -4,7 +4,7 @@ Lendbook is inspired by the logic of an order book, but it is not designed to re
 
 This multiplication factor is unique for each pair of assets and it is defined at market creation. The value of this factor depends on the nature and volatility of the assets. **If the assets are volatile, the factor will be set as high** (e.g. step of 15% between each pool). **If the assets are correlated or pegged, the factor will be set as low** (e.g. step of 1% between each pool).
 
-The interest rate is calculated per pool. It depends on the pool's utilisation rate. **Borrowers who borrow from a pool pay interest rates to the lenders in that pool.**
+The interest rate is calculated per pool. It depends on the pool's utilisation rate. **Borrowers who borrow from a pool pay interest rates to the lenders in that same pool.**
 
 !!! note "Example"
     For the ETH/USDC market, the step between each pool is defined as 10% (meaning x1.10).
