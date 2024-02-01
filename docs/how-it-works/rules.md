@@ -4,7 +4,7 @@ The main rules are :
 
 1. **Limit orders can only be posted within a restricted range of limit prices.**
 
-    As mentioned in the [Pools of orders section](../pools-of-orders), limit orders can be posted within a restricted set of pools. Eeach pool has an assigned limit price.
+    As mentioned in the [Pools of orders section](../pools-of-orders), limit orders can be posted within a restricted set of pools. Each pool has an assigned limit price.
 
     !!! note "Example"
         In the ETH/USDC market, Alice can deposit USDC as a buy order in the Pool~2000~ at limit price of 2000. 
@@ -20,11 +20,17 @@ The main rules are :
         
         However if Carol wants to borrow ETH from Pool~2200~ , Bob's collateral cannot be borrowed by Carol.
 
-* **When part or all assets in a pool of orders are taken, positions borrowing from the pool are automatically closed out.**
+* **Interest rates are shared between all the lenders of a pool.**
 
     TBD
+
+* **When part or all assets in a pool of orders are taken, positions borrowing from the pool are automatically closed out.**
+
+    If the market price reaches the limit price of the pool, takers can trade part or all assets in that pool. The first trade automatically liquidates all the borrowing positions from the pool. Limit orders that have been borrowed are filled thanks to the collateral they receive from the borrowers.
     !!! note "Example"
-        When market price reaches the limit price of pool 2000, Alice’s buy order is taken at 2000, Bob’s position is closed out. The collateral is transfered to Alice.
+        Alice’s buy order is borrowed by Bob. Imagine market price reaches the limit price of Pool~2000~, a taker trades part of the assets, and so Bob’s position is closed out. Alice’s buy order is filled and the collateral is transfered to Alice.
+
+        When market price reaches the limit price of Pool~2000~, a taker can trade part of the assets in this pool, Bob’s position is closed out. Bob's collateral is transfered to Alice. 
 
 * **Liquidated borrowers pay a small liquidation fee to lenders (1 or 2%).**
 
