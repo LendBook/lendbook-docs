@@ -4,9 +4,15 @@ Borrowers who borrow from a pool pay interest rates to the lenders in that same 
 
 <h2 style="font-weight: bold;">Calcul of the Utilisation Rate</h2>
 
-The liquidity deposited by lenders in a pool can be divided into three categories :
+The liquidity deposited by lenders in a pool can be divided into different categories :
 
-- **Non-Borrowable liquidity** :  It is left to incentivize takers to make a trade when the market price reaches the limit price. Indeed, the first trade of a taker is important because it activates the liquidation of all the borrowing positions from the pool. The ratio of the non-Borrowable liquidity is defined at the smart contract level (e.i. 10% of the liquidity).
-- **Borrowed liquidity** : Borrowable assets which are currently borrowed.
-- **Excess Liquidity** : Borrowable assets which are not yet borrowed. Borrowing or withdrawing from the pool reduce
+- **Non-Borrowable liquidity** : Liquidity which is not available for borrowing. It is left to incentivize takers to make a trade when the market price reaches the limit price. Indeed, the first trade of a taker is important because it activates the liquidation of all the borrowing positions from the pool. The ratio of the non-Borrowable liquidity is defined at the smart contract level (e.i. 10% of the liquidity).
+- **Borrowable liquidity** :
+    - **Borrowed liquidity** : Borrowable assets which are currently borrowed.
+    - **Available Liquidity** : Borrowable assets which are not yet borrowed. Borrowing or withdrawing from the pool reduces available liquidity.
 
+The Utilisation Rate (UR) is the ratio between the Borrowed liquidity and the total of Borrowable liquidity :
+
+<center>
+$UR = \dfrac{Borrowed\ liquidity}{Borrowed\ liquidity + Available\ liquidity}$
+</center>
