@@ -32,4 +32,3 @@ The interest rate is calculated per pool. It depends on the pool's utilisation r
       ![Image title](../images/how-it-works-pool-2.png)
     </figure>
 
-

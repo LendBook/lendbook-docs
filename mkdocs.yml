@@ -47,7 +47,7 @@ theme:
     - navigation.expand #(to see all the sections when .sections is unable)
     - navigation.instant
     - navigation.footer
-    - toc.integrate
+    #- toc.integrate # in order to show subtitles in the sidebars (I prefer to hide the subtitles)
     - navigation.top
     - search.suggest
     - search.highlight
