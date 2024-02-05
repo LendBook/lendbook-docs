@@ -12,3 +12,5 @@ LendBook was design to be **the most robust protocol to supply and borrow assets
 ## **TL; DR**
 
 If you don't have time to read everything, or if you want to get an overview before digging in the documentation, here are the main things you need to know :
+
+[To Be Done]

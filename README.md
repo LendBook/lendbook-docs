@@ -29,4 +29,9 @@ Once your branch is pushed to main branch, the documentation should shortly be a
 
 ## FIXME
 
-- [ ] In dark mode, when the user is on a specific page, the name of the page in the sidebar (navigation) is using md-primary-fg-color which is too dark. Need to change the path for this specific color in order to use another color.
+- [x] In dark mode, when the user is on a specific page, the name of the page in the sidebar (navigation) is using md-primary-fg-color which is too dark. Need to change the path for this specific color in order to use another color.
+
+
+
+
+Isolated markets: All lending/borrowing markets are isolated from one another, this ensures that each risks are contained within a market and participants of a market is not affected by the outcome of another.
