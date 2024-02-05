@@ -11,7 +11,7 @@ nav:
     - Pools of orders: how-it-works/pools-of-orders.md
     - Main Rules: how-it-works/rules.md
     - Interest Rates: how-it-works/interest-rates.md
-    - Liquidations: how-it-works/liquidation.md
+    - Liquidation fees:  how-it-works/liquidation.md
   - Users:
     - Borrower: users/borrower.md
     - Lender: users/lender.md
