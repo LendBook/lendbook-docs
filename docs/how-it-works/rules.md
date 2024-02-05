@@ -23,9 +23,9 @@ The main rules are :
         
         However if Carol wants to borrow ETH from Pool~2200~ , Bob's collateral cannot be borrowed by Carol.
 
-* **When part or all assets in a pool of orders are taken, positions borrowing from the pool are automatically closed out.**
+* **When part or all assets in a pool of orders are taken, positions borrowing from the pool are closed out.**
 
-    If the market price reaches the limit price of the pool, takers can trade part or all assets which are not borrowed in that pool. The first trade automatically liquidates all the borrowing positions from the pool. Limit orders that have been borrowed are filled thanks to the collateral they receive from the borrowers.
+    If the market price reaches the limit price of the pool, takers can trade part or all assets which are not borrowed in that pool. The trades liquidate the borrowing positions from the pool. Limit orders that have been borrowed are filled thanks to the collateral they receive from the borrowers.
     !!! note "Example"
         Alice’s buy order is borrowed by Bob. 
         
@@ -43,16 +43,16 @@ The main rules are :
     
     There are two types of liquidations : interest-based liquidation and price-based liquidation. Check the [liquidations section](../liquidation) for more details.
 
-    !!! note "Example continued with the addition of a 1% liquidation fee (price-based liquidation)"
+    !!! note "Example continued with the addition of a 4% liquidation fee (price-based liquidation)"
         When market price reaches the limit price of Pool~2000~ , a taker trades a portion of the assets that are not borrowed. This automatically closes Bob's position and Bob's collateral is transfered to Alice. 
 
         Bob's loan is equal to 3600 USDC, so Bob's collateral is equal to 1.8 ETH (=3600/2000 where 2000 corresponds to the pool limit price.)
 
-        Bob’s collateral transferred to Alice is 1.8 + 1.8×0.01 = 1.818 ETH (collateral + liquidation fee). 
+        Bob’s collateral transferred to Alice is 1.8 + 1.8×0.04 = 1.872 ETH (collateral + liquidation fee). 
         
         Alice’s remaining buy order 2400 USDC (=6000-3600) is filled for 1.2 ETH (=2400/2000). 
         
-        In total, Alice receives 3.018 ETH. For simplicity, interest rates are not included in this example.
+        In total, Alice receives 3.072 ETH. For simplicity, interest rates are not included in this example.
 
 * **When a borrower limit order is filled, the borrowing positions linked to this order are automatically closed out.**
 
@@ -83,7 +83,7 @@ The main rules are :
     By default, the order is placed in the pool just above or just below the current market price. Lenders can then withdraw the assets or change the limit price if they wish.
 
     !!! note "Example (follow up of example from rule 5)"
-        When market price reaches the limit price of Pool~2000~ , Alice’s buy order is filled, and so Alice receives 3.018 ETH. 
+        When market price reaches the limit price of Pool~2000~ , Alice’s buy order is filled, and so Alice receives 3.072 ETH. 
         
         The protocol relocates the ETH in a sell order which is located by default in the Pool~2200~.
 

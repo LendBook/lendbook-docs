@@ -12,9 +12,22 @@ In LendBook, when the price crosses a limit price, the closing of a borrowing po
 
 Since lenders agree to receive the collateral as a payment, the protocol does not need to incentivize bots to liquidate unhealthy positions on time. 
 
-**The borrower only pays small liquidation fee rate to lenders(1 or 2%, to be decided).** The goal is to compensate lenders for receiving the collateral and give borrowers incentives to repay their loan before liquidation. 
-
-This liquidation fee is not shared between all the lenders of the pool, but only with the lenders whose limit orders have been filled (i.e. the lenders who have received the collaterals). Lenders whose orders are not filled during the first take of the first taker do not receive liquidation fees.
-
+**The borrower pays liquidation fee rate to lenders (between 1 and 5%, to be decided).** The goal is to compensate lenders for receiving the collateral and give borrowers incentives to repay their loan before liquidation. 
 
 <h2 style="font-weight: bold;">Interest-based liquidation</h2>
+
+As time goes on, the borrowed amount increases due to the compound interest rate. A collateralized position can become under-collateralized and subject to liquidation.
+
+
+??? info "Equation of the Interest Rate curve"
+    The IR curve is :
+    <center>
+    $\begin{cases}
+        if\ \ UR \leq UR^*\ ;\ IR = \alpha+\beta \dfrac{UR}{UR^*} \\ 
+        if\ \ UR \gt UR^*\ ;\ IR = \alpha+\beta +\gamma \dfrac{UR-UR^*}{1-UR^*}
+        \end{cases}$
+    </center>
+    <center>
+    $with\ α,\ β\ and\ γ\ three\ positive\ parameters\ (γ>β)$
+    </center>
+
