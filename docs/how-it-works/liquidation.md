@@ -18,7 +18,7 @@ Since lenders agree to receive the collateral as a payment (plus liquidation fee
 
 As time goes on, the borrowed amount increases due to the accumulation of interest rate. A collateralized position can become under-collateralized and subject to liquidation.
 
-In order to manage this liquidation, **for each borrower we calculate its Excess Collateral (EC)**. The excess collateral represents the quantity of asset deposited as collateral by the borrower but not yet required as collateral for borrower's various loans. The excess collateral is calculated per borrower and includes all borrowing positions. It is not calculated for each borrowing position independently.
+In order to manage this liquidation, **for each borrower we calculate its Excess Collateral (EC)**. The excess collateral represents the quantity of asset deposited as collateral by the borrower but not yet required as collateral for borrower's various loans. The excess collateral is calculated per borrower and includes all borrowing positions. It is not calculated for each borrowing position independently. Also the excess collateral is specific to each market.
 
 Excess collateral can decrease depending on two aspects:
 
@@ -40,7 +40,6 @@ Excess collateral can decrease depending on two aspects:
     </center>
 
 
-**Excess collateral must always be positive. Otherwise, liquidation is at the initiative of external actors who receive in exchange
-up to a 3% bonus.**
+**Excess collateral must always be positive. Otherwise, liquidation is at the initiative of external actors who receive in exchange a liquidation penalty (e.i. up to a 3% bonus).** 
 
-<!-- TODO decrire ce que reçoit le lender, le borrower et l'external actor, et faire un exemple -->
+<!-- TODO à ameliorer. Decrire ce que reçoit le lender, le borrower et l'external actor, et faire un exemple -->

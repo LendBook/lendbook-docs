@@ -1,8 +1,8 @@
 Borrowers who borrow from a pool pay interest rates to the lenders in that same pool.
 
-**The interest rate is calculated per pool of orders**, and **it depends on the pool's utilisation rate**. Interest rates are shared between all the lenders of a pool.
+**The interest rate is calculated per pool of orders**, and **it depends on the pool's utilization rate**. Interest rates are shared between all the lenders of a pool.
 
-<h2 style="font-weight: bold;">Calcul of the Utilisation Rate</h2>
+<h2 style="font-weight: bold;">Calcul of the Utilization Rate</h2>
 
 **The liquidity** deposited by lenders in a pool **can be divided into different categories :**
 
@@ -12,7 +12,7 @@ Borrowers who borrow from a pool pay interest rates to the lenders in that same 
     - **Available Liquidity** : Borrowable assets which are not yet borrowed. Borrowing or withdrawing from the pool reduces available liquidity.
 
 <br>
-**The Utilisation Rate (UR) is calculated per pool of orders**. UR is the ratio between the Borrowed liquidity and the total of Borrowable liquidity :
+**The Utilization Rate (UR) is calculated per pool of orders**. UR is the ratio between the Borrowed liquidity and the total of Borrowable liquidity :
 
 <center>
 $UR = \dfrac{Borrowed\ liquidity}{Borrowed\ liquidity + Available\ liquidity}$
@@ -55,7 +55,7 @@ The goal of the IR curve is to encourage new lenders to come and deposit liquidi
 !!! note "Example (continued from example in [Pools of orders Section](../pools-of-orders))"
     For the ETH/USDC market, Bob had borrowed 8k USDC from the Pool~2000~.
 
-    For the Pool~2000~, let's calculate the Utilisation Rate and the Interest Rate:
+    For the Pool~2000~, let's calculate the Utilization Rate and the Interest Rate:
     
     <figure markdown>
       ![Image title](../images/interest-rates-2.png)
