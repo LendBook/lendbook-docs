@@ -43,3 +43,4 @@ Excess collateral can decrease depending on two aspects:
 **Excess collateral must always be positive. Otherwise, liquidation is at the initiative of external actors who receive in exchange a liquidation penalty (e.i. up to a 3% bonus).** 
 
 <!-- TODO à ameliorer. Decrire ce que reçoit le lender, le borrower et l'external actor, et faire un exemple -->
+[To Be Done]
