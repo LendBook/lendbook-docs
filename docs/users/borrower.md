@@ -1,6 +1,8 @@
 ## **How do I borrow?**
 
-To borrow an asset, you need to choose the asset you wish to use as collateral and go to the corresponding market. There is then a two-step process:
+To borrow an asset, you need to choose the asset you wish to use as collateral and go to the corresponding market. For example, you might want to borrow USDC and use ETH as collateral, so you go to the ETH/USDC market.
+
+There is then a two-step process:
 
 
 1. Before borrowing, you need to deposit some collateral by posting a limit order on the other side of the order book. 
