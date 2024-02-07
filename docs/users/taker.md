@@ -1,18 +1,18 @@
 
-## **Why would I want to be a taker?**
+<h2 style="font-weight: bold;">Why would I want to be a taker?</h2>
 
 Unlike common Decentralize Exchanges (DEXs), **takers do not pay any fees for swapping assets.**
 
 Takers can swap an asset for another asset if the market price reaches the limit price of a pool-of-orders.
 Takers can take all the non-borrowable liquidity in a pool.
 
-## **Why are there no fees for swapping assets?**
+<h2 style="font-weight: bold;">Why are there no fees for swapping assets?</h2>
 
 Takers play an important role in LendBook. When a taker takes part of assets in a pool-of-orders, it automatically liquidates part of the borrowing positions from that same pool. So the gas of a taker's transaction is slightly higher than that of conventional swap. But this is balanced out by the fact that the taker doesn't have to pay any fees.
 
 So in order to incentivize them to come and trade on LendBook rather than on a DEX, takers do not pay any fees for swapping assets.
 
-## **Who are the takers?**
+<h2 style="font-weight: bold;">Who are the takers?</h2>
 
 Takers can have different profils :
 
@@ -22,7 +22,7 @@ Takers can have different profils :
 
 * A bot who find arbitrage opportunities by becoming a taker on LendBook.
 
-##**What about the 3% bonus when there is an interest-based liquidation?**
+<h2 style="font-weight: bold;">What about the 3% bonus when there is an interest-based liquidation?</h2>
 
 Good point, it means that you've read the [liquidation fees](../../how-it-works/liquidation){target=_blank} section :wink:
 
