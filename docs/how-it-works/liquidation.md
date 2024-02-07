@@ -40,7 +40,19 @@ Excess collateral can decrease depending on two aspects:
     </center>
 
 
-**Excess collateral must always be positive. Otherwise, liquidation is at the initiative of external actors who receive in exchange a liquidation penalty (e.i. up to a 3% bonus).** 
+**Excess collateral must always be positive. Otherwise, liquidation is at the initiative of takers who receive in exchange a liquidation penalty (e.i. up to a 3% bonus).** 
 
 <!-- TODO à ameliorer. Decrire ce que reçoit le lender, le borrower et l'external actor, et faire un exemple -->
-[To Be Done]
+
+
+
+??? note "Example"
+    In the ETH/USDC market, let's suppose that market price is equal to 2110 :
+
+    1. Bob has deposited 3 ETH as collateral as sell order in the Pool~2200~.
+    2. Bob borrowed 5100 USDC from the Pool~1818~ at limit price 1818. 
+    3. As time goes on, the collateral needed for this position is now up to 5454 USDC. This collateral represents 3 ETH (=5454/1818) meaning that Bob's Excess collateral is now equal to zero. Bob's borrowing position needs to be liquidated.
+    4. Market price is still 2110. Carol takes Bob's position. So she repays Bob's debt to the Pool~1818~ (5454 USDC). And in exchange she gets 2.5848 ETH (=5454/2110) plus a 3% bonus of 0.078 ETH (=2.5848*0.03). So in total Carol trades 5454 USDC for 2.6628 ETH at market price 2110. 
+    5. Bob's remaining order in Pool~2200~ is equal to 0.3372 ETH (=3-2.6628). Here Bob had to pay a liquidation fee of 0.078 ETH.
+
+

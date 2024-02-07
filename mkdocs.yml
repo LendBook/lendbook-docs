@@ -17,15 +17,15 @@ nav:
     - Lender: users/lender.md
     - Taker: users/taker.md 
   - Advantages of LendBook: 
-    - Minimized governance: advantages/governance.md
     - No bad debt / No off-chain risk management: advantages/risk-management.md
     - Simple debt management: advantages/debt-management.md
     - Low liquidation cost: advantages/liquidation-cost.md
-    - High leverage: advantages/leverage.md
     - High Loan-To-Value: advantages/loan-to-value.md
+    - High leverage: advantages/leverage.md
     - Soft-pegged assets: advantages/soft-pegged-assets.md
     - Automated-market-making: advantages/automated-market-making.md
     - Addressable-market: advantages/addressable-market.md
+    - Minimized governance: advantages/governance.md
   - Use Cases: 
     - Stop loss: use-cases/stop-loss.md
     - Take profit: use-cases/take-profit.md
