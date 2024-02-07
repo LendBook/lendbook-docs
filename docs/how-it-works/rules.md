@@ -4,7 +4,7 @@ The main rules are :
 
 1. **Limit orders can only be posted within a restricted range of limit prices.**
 
-    As mentioned in the [pools of orders section](../pools-of-orders), limit orders can be posted within a restricted set of pools. Each pool has an assigned limit price.
+    As mentioned in the [pools of orders section](../pools-of-orders){target=_blank}, limit orders can be posted within a restricted set of pools. Each pool has an assigned limit price.
 
     !!! note "Example"
         In the ETH/USDC market, let's suppose the current market price is 2110.
@@ -35,13 +35,13 @@ The main rules are :
     
     Borrowers pay interest rates to all the lenders in the pool they borrow from. 
     
-    Check the [interest rates section](../interest-rates) for more details.
+    Check the [interest rates section](../interest-rates){target=_blank} for more details.
 
 * **Liquidated borrowers pay a small liquidation fee to lenders.**
 
     In the event of liquidation, liquidation fee is paid by borrowers to lenders. This liquidation fee exists to encourage borrowers to pay back their loans. Liquidation fees compensate lenders for receiving the collateral. 
     
-    There are two types of liquidations : interest-based liquidation and price-based liquidation. Check the [liquidations section](../liquidation) for more details.
+    There are two types of liquidations : interest-based liquidation and price-based liquidation. Check the [liquidations section](../liquidation){target=_blank} for more details.
 
     !!! note "Example continued with the addition of a 4% liquidation fee (price-based liquidation)"
         When market price reaches the limit price of Pool~2000~ , a taker trades a portion of the assets that are not borrowed. This automatically closes Bob's position and Bob's collateral is transfered to Alice. 
@@ -62,7 +62,7 @@ The main rules are :
   
     The closing of the borrowing position guarantees that the type of assets serving as collateral always matches the type needed in case of liquidation. 
     
-    Check the [take profit use case](../../use-cases/take-profit) for more details.
+    Check the [take profit use case](../../use-cases/take-profit){target=_blank} for more details.
 
 
     !!! note "Example (variant)"

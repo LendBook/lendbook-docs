@@ -2,4 +2,4 @@
 
 *[quote]: In a market pair, the quote asset is the second asset. In LendBook, lenders deposit quote asset (e.i. in ETH/USDC market, the quote is USDC)
 
-*[non-borrowable]: Liquidity which is not available for borrowing. It is left to incentivize takers to make a trade when the market price reaches the limit price (check out Interest Rates section for more details)
+*[non-borrowable]: In each pool, it's the liquidity which is not available for borrowing. It is left to incentivize takers to make a trade when the market price reaches the limit price (check out Interest Rates section for more details)

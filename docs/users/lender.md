@@ -9,8 +9,8 @@ Then, depending on your strategy, **you can choose in which pool-of-orders you w
 
 There are two sources of earnings :
 
-* [**Interest rates**](../../how-it-works/interest-rates) - In each pool, lenders share the interests paid by borrowers. The interest rate you earn depends on the utilization rate of the pool you deposited in. The interest rate can fluctuate over time.
-* [**liquidation fees**](../../how-it-works/liquidation) - You earn a liquidation fee when your order is filled if there are borrowing positions that have been liquidated
+* [**Interest rates**](../../how-it-works/interest-rates){target=_blank} - In each pool, lenders share the interests paid by borrowers. The interest rate you earn depends on the utilization rate of the pool you deposited in. The interest rate can fluctuate over time.
+* [**liquidation fees**](../../how-it-works/liquidation){target=_blank} - You earn a liquidation fee when your order is filled if there are borrowing positions that have been liquidated
 
 
 ## **What happens when my limit order is filled?**
@@ -24,7 +24,7 @@ When market price reaches the limit price of the pool, takers can trade part of 
 
 **When your order is filled**, and there are borrowing positions that have been liquidated, **lenders from the pool receive and share liquidation fees paid by the borrowers** (in addition to the interest rates).
 
-## **I want to earn interest but at the end I want to keep my asset. What should I do ?**
+## **I want to earn interest but I want to keep my asset at the end. What should I do ?**
 
 You have supplied quote asset in order to earn interest rates but you do not want your asset to be trade into the base asset. Here is what you can do :
 
@@ -36,5 +36,5 @@ You have supplied quote asset in order to earn interest rates but you do not wan
 ## **How do I withdraw?**
 To withdraw you need to go to the "My positions" section, select the limit order you wish to withdraw and click on "Withdraw". Select the amount to withdraw and submit the transaction.
 
-You would need to make sure there is enough available liquidity (not borrowed) in the pool in order to withdraw. If the utilization rate of the pool is near 100%, you would need to wait for more liquidity to enter from suppliers or wait for borrowers to repay some of the borrowing positions. 
+You would need to make sure there is enough available liquidity (not borrowed) in the pool in order to withdraw. If the utilization rate of the pool is near 100%, you would need to wait for more liquidity to enter from lenders or wait for borrowers to repay some of the borrowing positions. 
 

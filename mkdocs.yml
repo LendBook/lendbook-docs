@@ -29,6 +29,8 @@ nav:
   - Use Cases: 
     - Stop loss: use-cases/stop-loss.md
     - Take profit: use-cases/take-profit.md
+  - Others :
+    - Questions/feedbacks: others/questions.md
 
 
 

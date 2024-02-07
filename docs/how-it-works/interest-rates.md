@@ -52,7 +52,7 @@ The goal of the IR curve is to encourage new lenders to come and deposit liquidi
 
 <br>
 
-!!! note "Example (continued from example in [Pools of orders Section](../pools-of-orders))"
+!!! note "Example (continued from example in [Pools of orders Section](../pools-of-orders){target=_blank})"
     For the ETH/USDC market, Bob had borrowed 8k USDC from the Pool~2000~.
 
     For the Pool~2000~, let's calculate the Utilization Rate and the Interest Rate:

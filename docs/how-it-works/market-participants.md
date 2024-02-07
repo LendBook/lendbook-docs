@@ -10,7 +10,7 @@ There are three types of market participants in LendBook: **lenders**, **borrowe
 
     They post limit orders at specified prices. These orders can be borrowed, which earns them interest.
 
-    [:octicons-info-16: More information on lenders](../../users/lender){ .md-button }
+    [:octicons-info-16: More information on lenders](../../users/lender){target=_blank, .md-button }
 
 
 <br>
@@ -21,7 +21,7 @@ There are three types of market participants in LendBook: **lenders**, **borrowe
 
     They pay interest rates when orders are borrowed. 
 
-    [:octicons-info-16: More information on borrowers](../../users/borrower){ .md-button }
+    [:octicons-info-16: More information on borrowers](../../users/borrower){target=_blank, .md-button }
     
 <br>
 
@@ -29,7 +29,7 @@ There are three types of market participants in LendBook: **lenders**, **borrowe
 
     They can trade assets when market price reaches the limit price of orders they want to take.  They can take all or a portion of the non-borrowed part of limit orders. No fees applied on the trade. 
     
-    [:octicons-info-16: More information on takers](../../users/taker){ .md-button }
+    [:octicons-info-16: More information on takers](../../users/taker){target=_blank, .md-button }
 
 <br>
 
