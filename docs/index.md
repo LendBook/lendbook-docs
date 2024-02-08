@@ -42,6 +42,6 @@ Users can lend and borrow limit orders' assets :
 
 <figure markdown>
   ![Image title](images/what-is-lendbook-2.png)
-  <figcaption> <u>A simplify example :</u> (1) Alice deposits some USDC as a buy order at price 2000 USDC. (2) Bob deposits some ETH as a sell order at 2200. (3) With this ETH as collateral, he can then borrow USDC from Alice.</figcaption>
+  <figcaption> <u>A simplified example :</u> (1) Alice deposits some USDC as a buy order at price 2000 USDC. (2) Bob deposits some ETH as a sell order at 2200. (3) With this ETH as collateral, he can then borrow USDC from Alice.</figcaption>
 </figure>
 
