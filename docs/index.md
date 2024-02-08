@@ -19,7 +19,7 @@ LendBook is a non-custodial and permissionless lending protocol that enables use
 In other words, it can be seen as **the fusion of a limit order book and a lending protocol**. We can say that LendBook is a **Lending Limit Order Book**.
 
 <figure markdown>
-  ![Image title](../images/meme_panda.png){ width="400" }
+  ![Image title](images/meme_panda.png){ width="400" }
 </figure>
 
 
