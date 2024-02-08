@@ -2,7 +2,7 @@ In LendBook, **there are two types of liquidations :**
 
 * **Price-based liquidation** when the market price reaches the pool limit price, borrowing positions are liquidated
 
-* **Interest-based liquidation** when a collateralized position becomes under-collateralized due to the accumulation of interest rate (mainly for long-term borrowings)
+* **Interest-based liquidation** when a collateralized position will become under-collateralized due to the accumulation of interest rate (mainly for long-term borrowings)
 
 
 

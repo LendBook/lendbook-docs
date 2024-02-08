@@ -8,7 +8,7 @@ There are three types of market participants in LendBook: **lenders**, **borrowe
 
 * **Lenders :** 
 
-    They post limit orders at specified prices. These orders can be borrowed, which earns them interest.
+    They deposit liquidity as limit orders at specified prices. These orders can be borrowed, which earns them interest.
 
     [:octicons-info-16: More information on lenders](../../users/lender){target=_blank, .md-button }
 
@@ -17,9 +17,9 @@ There are three types of market participants in LendBook: **lenders**, **borrowe
 
 * **Borrowers :** 
 
-    They post limit orders at specified prices on the other side of the order book. 
+    They deposit collateral as limit orders on the other side of the order book in order to borrow assets posted by lenders. 
 
-    They pay interest rates when orders are borrowed. 
+    They pay interest rates on their borrowing positions. 
 
     [:octicons-info-16: More information on borrowers](../../users/borrower){target=_blank, .md-button }
     

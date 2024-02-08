@@ -4,8 +4,8 @@ site_name: LendBook Documentation
 
 nav:
   - Introduction:
-    - Intro | TLDR: index.md
-    - What is LendBook ?: introduction/what-is-lendbook.md 
+    - What is LendBook ?: index.md
+    - TL;DR: introduction/tldr.md 
   - How it works?: #base-features/how-it-works.md 
     - Market participants: how-it-works/market-participants.md
     - Pools of orders: how-it-works/pools-of-orders.md
@@ -19,16 +19,15 @@ nav:
   - Advantages of LendBook: 
     - No bad debt / No off-chain risk management: advantages/risk-management.md
     - Simple debt management: advantages/debt-management.md
+    - Stop loss and take profit: advantages/stop-loss-take-profit.md
     - Low liquidation cost: advantages/liquidation-cost.md
     - High Loan-To-Value: advantages/loan-to-value.md
     - High leverage: advantages/leverage.md
     - Soft-pegged assets: advantages/soft-pegged-assets.md
-    - Automated-market-making: advantages/automated-market-making.md
-    - Addressable-market: advantages/addressable-market.md
+    - Automated Market Making: advantages/automated-market-making.md
+    - Addressable market: advantages/addressable-market.md
     - Minimized governance: advantages/governance.md
-  - Use Cases: 
-    - Stop loss: use-cases/stop-loss.md
-    - Take profit: use-cases/take-profit.md
+    #- Degen Strategies : borrow USDC with USDC as collateral
   - Others :
     - Questions/feedbacks: others/questions.md
 
