@@ -44,7 +44,7 @@ The main rules are :
     There are two types of liquidations : interest-based liquidation and price-based liquidation. Check the [liquidations section](../liquidation){target=_blank} for more details.
 
     !!! note "Example continued with the addition of a 4% liquidation fee (price-based liquidation)"
-        When market price reaches the limit price of Pool~2000~ , a taker trades a portion of the assets that are not borrowed. This automatically closes Bob's position and Bob's collateral is transfered to Alice. 
+        When market price reaches the limit price of Pool~2000~ , a taker trades a portion of the assets that are not borrowed. This automatically closes Bob's position and Bob's collateral is transferred to Alice. 
 
         Bob's loan is equal to 3600 USDC, so Bob's collateral is equal to 1.8 ETH (=3600/2000 where 2000 corresponds to the pool limit price.)
 
@@ -54,9 +54,9 @@ The main rules are :
         
         In total, Alice receives 3.072 ETH. For simplicity, interest rates are not included in this example.
 
-* **When a borrower limit order is filled, the borrowing positions linked to this order are automatically closed out.**
+* **When a borrower's own limit order is filled, the borrowing positions linked to this order are automatically closed out.**
 
-    Borrowers place limit orders as collateral in a pool in order to borrow assets posted by lenders in other pools. 
+    Borrowers place limit orders as collateral in a pool to borrow assets posted by lenders in other pools. 
     
     If the market price reaches the limit price of the pool (where borrowers' orders are), takers can trade assets which serve as collateral for the borrowers. When a limit order is filled, borrowing positions linked to this order are automatically closed out inside the other pools.
   
