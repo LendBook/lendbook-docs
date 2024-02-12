@@ -25,8 +25,8 @@ If you don't have time to read everything, or if you want to get an overview bef
     * **No off-chain risk management** — risk management is on-chain and market-driven
     * **Simple debt management** — To avoid liquidation, the borrower simply needs to follow the market price and remember at what limit price he has placed his loan.
     * **Low liquidation cost** — liquidation fee = 4% for volatile assets (e.i. ETH/USDC market)
-    * **High Loan-To-Value** — MaxLTV = 94% for volatile assets (e.i. ETH/USDC market)
-    * **High leverage** — Max Theoretical Leverage is x16 for volatile assets (e.i. ETH/USDC market)
+    * **High Loan-To-Value** — MaxLTV = 94% for volatile assets
+    * **High leverage** — Max Theoretical Leverage is x16 for volatile assets
     * **Near zero governance** — on the path to full decentralization.
 
 
