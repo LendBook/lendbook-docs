@@ -24,8 +24,10 @@ The main rules are :
         However if Carol wants to borrow ETH from Pool~2200~ , Bob's collateral cannot be borrowed by Carol.
 
 * **When part or all assets in a pool of orders are taken, positions borrowing from the pool are closed out.**
-
+    
     If the market price reaches the limit price of the pool, takers can trade part or all assets which are not borrowed in that pool. The trades liquidate the borrowing positions from the pool. Limit orders that have been borrowed are filled thanks to the collateral they receive from the borrowers.
+
+    The market price is given by an oracle (Oracleless lending will be implemented in the V2 for long-tail assets).
     !!! note "Example"
         Alice’s buy order is borrowed by Bob. 
         

@@ -12,6 +12,7 @@ nav:
     - Main Rules: how-it-works/rules.md
     - Interest Rates: how-it-works/interest-rates.md
     - Liquidation fees:  how-it-works/liquidation.md
+    - Max Loan-To-Value:  how-it-works/max-loan-to-value.md
   - Users:
     - Borrower: users/borrower.md
     - Lender: users/lender.md
@@ -73,6 +74,7 @@ theme:
 
 
 markdown_extensions:
+  - tables
   - abbr
   - pymdownx.highlight:
       anchor_linenums: true

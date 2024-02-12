@@ -14,7 +14,7 @@ If you don't have time to read everything, or if you want to get an overview bef
 
 * **The interest rate is calculated per pool. It depends on the pool's utilization rate.** Borrowers who borrow from a pool pay interest rates to the lenders in that same pool.
 
-* **When market price reaches the limit price of a pool-of-orders, borrowing positions from that pool are liquidated.** Lenders receive the borrowers' collateral plus the interest rate and liquidation fee.
+* **The market price is given by an oracle. When market price reaches the limit price of a pool-of-orders, borrowing positions from that pool are liquidated.** Lenders receive the borrowers' collateral plus the interest rate and liquidation fee.
 
 * **There are 2 types of liquidations** :
       * **Price-based liquidation** when the market price reaches the pool limit price, borrowing positions are liquidated;
