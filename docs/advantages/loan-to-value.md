@@ -1,9 +1,9 @@
-When a pool-of-orders is close to the market price, maxLTV tends towards aLTV.
+**When a pool-of-orders is close to the market price, maxLTV tends towards aLTV.**
 
 For each type of asset pair, we can calculate the interval of maxLTV for the pool-of-orders closest to the market price :
 
 
-| Asset tier                | aLTV  | pool step  |  maxLTV  |Examples |
+| Asset tier                | aLTV  | pool step  |  MaxLTV for pool closest to market price  |Examples |
 | :----------:              | :----:| :----:| :----:| :--------: |
 | Pegged assets             | 98.5% | 0.1% | **from 98.4% to 98.5%** | *DAI/USDC, wstETH/ETH* |
 | Correlated assets         | 96%   | 1% | **from 95% to 96%**  | *USDM/USDC, FRAX/USDC* |
