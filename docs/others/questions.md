@@ -7,7 +7,7 @@ Also we want to develop a protocol that everyone can understand. **If you have a
 <br>
 Contact us on :
 
-* Telegram - [https://t.me/lend_book](https://t.me/lend_book)
-* Discord - 
-* Twitter - [https://twitter.com/lend_book](https://twitter.com/lend_book)
+* Telegram - [https://t.me/lend_book](https://t.me/lend_book){target=_blank}
+* Discord - [https://discord.com/invite/xQYtyQzqAu](https://discord.com/invite/xQYtyQzqAu){target=_blank}
+* Twitter - [https://twitter.com/lend_book](https://twitter.com/lend_book){target=_blank}
 
