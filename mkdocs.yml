@@ -26,7 +26,7 @@ nav:
     - High leverage: advantages/leverage.md
     - Yield amplification: advantages/soft-pegged-assets.md
     - Automated Market Making: advantages/automated-market-making.md
-    - Addressable market: advantages/addressable-market.md
+    #- Addressable market: advantages/addressable-market.md
     - Minimized governance: advantages/governance.md
     #- Degen Strategies : borrow USDC with USDC as collateral
   - Others :
