@@ -2,7 +2,7 @@ Borrowers who borrow from a pool pay interest rates to the lenders in that same 
 
 **The interest rate is calculated per pool of orders**, and **it depends on the pool's utilization rate**. Interest rates are shared between all the lenders of a pool.
 
-<h2 style="font-weight: bold;">Calcul of the Utilization Rate</h2>
+<h2 style="font-weight: bold;">Calculation of the Utilization Rate</h2>
 
 **The liquidity** deposited by lenders in a pool **can be divided into different categories :**
 
@@ -24,7 +24,7 @@ $UR = \dfrac{Borrowed\ liquidity}{Borrowed\ liquidity + Available\ liquidity}$
 The UR has a maximum value of 100%. As long as UR is not equal to 100%, borrowers can borrow more, and lenders can withdraw their limit orders (before their orders are executed).
 
 
-<h2 style="font-weight: bold;">Calcul of the Interest Rate</h2>
+<h2 style="font-weight: bold;">Calculation of the Interest Rate</h2>
 
 The higher the pool’s utilization rate (UR), the higher the **Interest Rate (IR)**.
 
@@ -53,7 +53,7 @@ The goal of the IR curve is to encourage new lenders to come and deposit liquidi
 <br>
 
 !!! note "Example (continued from example in [Pools of orders Section](../pools-of-orders){target=_blank})"
-    For the ETH/USDC market, Bob had borrowed 8k USDC from the Pool~2000~.
+    For the ETH/USDC market, Bob borrowed 8k USDC from the Pool~2000~.
 
     For the Pool~2000~, let's calculate the Utilization Rate and the Interest Rate:
     
