@@ -11,3 +11,5 @@ Contact us on :
 * Discord - [https://discord.com/invite/xQYtyQzqAu](https://discord.com/invite/xQYtyQzqAu){target=_blank}
 * Twitter - [https://twitter.com/lend_book](https://twitter.com/lend_book){target=_blank}
 
+
+If you want to read the whitepaper : [Whitepaper link](https://github.com/LendBook/Borrowable-limit-order-book/blob/main/lendbook_wp.pdf){target=_blank}
