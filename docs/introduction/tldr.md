@@ -1,5 +1,5 @@
 
-<h2 style="font-weight: bold;">Too Long; Didn't Read</h2>
+<h2 style="font-weight: bold;">Too Long; Didn't Read</h2> 
 
 If you don't have time to read everything, or if you want to get an overview before digging in the documentation, here are the main things you need to know :
 
