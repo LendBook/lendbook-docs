@@ -12,6 +12,7 @@ nav:
     - Main Rules: how-it-works/rules.md
     - Interest Rates: how-it-works/interest-rates.md
     - Liquidation fees:  how-it-works/liquidation.md
+    - Max Loan-To-Value:  how-it-works/max-loan-to-value.md
   - Users:
     - Borrower: users/borrower.md
     - Lender: users/lender.md
@@ -23,9 +24,9 @@ nav:
     - Low liquidation cost: advantages/liquidation-cost.md
     - High Loan-To-Value: advantages/loan-to-value.md
     - High leverage: advantages/leverage.md
-    - Soft-pegged assets: advantages/soft-pegged-assets.md
+    - Yield amplification: advantages/soft-pegged-assets.md
     - Automated Market Making: advantages/automated-market-making.md
-    - Addressable market: advantages/addressable-market.md
+    #- Addressable market: advantages/addressable-market.md
     - Minimized governance: advantages/governance.md
     #- Degen Strategies : borrow USDC with USDC as collateral
   - Others :
@@ -73,6 +74,7 @@ theme:
 
 
 markdown_extensions:
+  - tables
   - abbr
   - pymdownx.highlight:
       anchor_linenums: true
