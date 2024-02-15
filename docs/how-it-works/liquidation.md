@@ -10,9 +10,18 @@ In LendBook, **there are two types of liquidation:**
 
 In LendBook, when the price crosses a limit price, the closing of a borrowing position does not rely on the active monitoring of liquidators but on that of takers. Takers, by taking the non-borrowed part of the assets, initiate the internal transfer from the borrowers to the lenders.
 
-**Borrowers pay liquidation fees to lenders (fee rate is between 1 and 5%, dependning on asset volatility).** The goal is to compensate lenders for receiving the collateral and give borrowers incentives to repay their loan before liquidation. 
+**Borrowers pay liquidation fees to lenders (fee rate is between 1 and 5%, depending on asset volatility).** The goal is to compensate lenders for receiving the collateral and give borrowers incentives to repay their loan before liquidation. 
 
 Since lenders agree to receive the collateral as a payment (plus liquidation fees), the protocol does not need to incentivize bots to liquidate unhealthy positions on time. 
+
+
+| Asset tier      | Liquidation fees                          | Examples |
+| :----------: | :-----------------------------------:  | :--------: |
+| Pegged assets       | 1%  | *DAI/USDC, wstETH/ETH* |
+| Correlated assets     | 2% | *USDM/USDC, FRAX/USDC* |
+| Volatile assets    | 4% | *ETH/USDC, WBTC/ETH* |
+| Long-tail assets (in V2)    | 6% | *MKR/ETH, LINK/ETH*|
+
 
 <h2 style="font-weight: bold;">Interest-based liquidation</h2>
 
@@ -40,7 +49,7 @@ Excess collateral can decrease depending on two aspects:
     </center>
 
 
-**Excess collateral must always be positive. Otherwise, liquidation is at the initiative of external actors who receive in exchange a liquidation penalty (e.i. up to a 3% bonus).** 
+**Excess collateral must always be positive. Otherwise, liquidation is at the initiative of takers who receive in exchange a liquidation incentive (3%).** 
 
 <!-- TODO à ameliorer. Decrire ce que reçoit le lender, le borrower et l'external actor, et faire un exemple -->
 

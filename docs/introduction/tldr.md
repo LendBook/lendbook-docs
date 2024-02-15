@@ -1,5 +1,5 @@
 
-<h2 style="font-weight: bold;">Too Long; Didn't Read</h2>
+<h2 style="font-weight: bold;">Too Long; Didn't Read</h2> 
 
 If you don't have time to read everything, or if you want to get an overview before digging in the documentation, here are the main things you need to know :
 
@@ -14,20 +14,20 @@ If you don't have time to read everything, or if you want to get an overview bef
 
 * **The interest rate is calculated per pool. It depends on the pool's utilization rate.** Borrowers who borrow from a pool pay interest rates to the lenders in that same pool.
 
-* **When market price reaches the limit price of a pool-of-orders, borrowing positions from that pool are liquidated.** Lenders receive the borrowers' collateral plus the interest rate and liquidation fee.
+* **The market price is given by an oracle. When market price reaches the limit price of a pool-of-orders, borrowing positions from that pool are liquidated.** Lenders receive the borrowers' collateral plus the interest rate and liquidation fee.
 
 * **There are 2 types of liquidations** :
       * **Price-based liquidation** when the market price reaches the pool limit price, borrowing positions are liquidated;
       * **Interest-based liquidation** when a collateralized position becomes under-collateralized due to the accumulation of interest rate. In case of liquidation, borrowers need to pay a small liquidation fee.
 
 * **LendBook offers users multiple benefits:**
-    * **No bad debt** - Borrowing positions cannot go under-collateralized
-    * **No off-chain risk management** - risk management is on-chain and market-driven
-    * **Simple debt management** - To avoid liquidation, the borrower simply needs to follow the market price and remember at what limit price he has placed his loan.
-    * **Low liquidation cost**
-    * **High Loan-To-Value**
-    * **High leverage**
-    * **Near zero governance** - on the path to full decentralization.
+    * **No bad debt** — Borrowing positions cannot go under-collateralized
+    * **No off-chain risk management** — risk management is on-chain and market-driven
+    * **Simple debt management** — To avoid liquidation, the borrower simply needs to follow the market price and remember at what limit price he has placed his loan.
+    * **Low liquidation cost** — liquidation fee = 4% for volatile assets (e.i. ETH/USDC market)
+    * **High Loan-To-Value** — MaxLTV = 94% for volatile assets
+    * **High leverage** — Max Theoretical Leverage is x16 for volatile assets
+    * **Near zero governance** — on the path to full decentralization.
 
 
 
