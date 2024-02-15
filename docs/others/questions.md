@@ -1,4 +1,4 @@
-LendBook protocol is still under construction. It is developed by the Breaking Lab team.
+LendBook protocol is still under construction. It is developed by the Breaking Labs team.
 
 We aim to develop a protocol that meets real user needs. So we're listening to all our future users. **If you have any feedback on LendBook, please don't hesitate to share it with us !**
 
