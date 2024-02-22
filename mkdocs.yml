@@ -1,39 +1,34 @@
 site_name: LendBook Documentation
 
-
-
 nav:
   - Introduction:
-    - What is LendBook ?: index.md
-    - TL;DR: introduction/tldr.md 
-  - How it works?: #base-features/how-it-works.md 
-    - Market participants: how-it-works/market-participants.md
-    - Pools of orders: how-it-works/pools-of-orders.md
-    - Main Rules: how-it-works/rules.md
-    - Interest Rates: how-it-works/interest-rates.md
-    - Liquidation fees:  how-it-works/liquidation.md
-    - Max Loan-To-Value:  how-it-works/max-loan-to-value.md
+      - What is LendBook ?: index.md
+      - TL;DR: introduction/tldr.md 
+  - How it works?:
+      - Market participants: how-it-works/market-participants.md
+      - Pools of orders: how-it-works/pools-of-orders.md
+      - Main Rules: how-it-works/rules.md
+      - Interest Rates: how-it-works/interest-rates.md
+      - Liquidation fees:  how-it-works/liquidation.md
+      - Max Loan-To-Value:  how-it-works/max-loan-to-value.md
   - Users:
-    - Borrower: users/borrower.md
-    - Lender: users/lender.md
-    - Taker: users/taker.md 
+      - Borrower: users/borrower.md
+      - Lender: users/lender.md
+      - Taker: users/taker.md 
   - Advantages of LendBook: 
-    - No bad debt / No off-chain risk management: advantages/risk-management.md
-    - Simple debt management: advantages/debt-management.md
-    - Stop loss and take profit: advantages/stop-loss-take-profit.md
-    - Low liquidation cost: advantages/liquidation-cost.md
-    - High Loan-To-Value: advantages/loan-to-value.md
-    - High leverage: advantages/leverage.md
-    - Yield amplification: advantages/soft-pegged-assets.md
-    - Automated Market Making: advantages/automated-market-making.md
-    #- Addressable market: advantages/addressable-market.md
-    - Minimized governance: advantages/governance.md
-    #- Degen Strategies : borrow USDC with USDC as collateral
+      - No bad debt / No off-chain risk management: advantages/risk-management.md
+      - Simple debt management: advantages/debt-management.md
+      - Stop loss and take profit: advantages/stop-loss-take-profit.md
+      - Low liquidation cost: advantages/liquidation-cost.md
+      - High Loan-To-Value: advantages/loan-to-value.md
+      - High leverage: advantages/leverage.md
+      - Yield amplification: advantages/soft-pegged-assets.md
+      - Automated Market Making: advantages/automated-market-making.md
+      #- Addressable market: advantages/addressable-market.md
+      - Minimized governance: advantages/governance.md
+      #- Degen Strategies : borrow USDC with USDC as collateral
   - Others :
-    - Questions/feedbacks: others/questions.md
-
-
-
+      - Questions/feedbacks: others/questions.md
 
 theme:
   name: material
@@ -45,11 +40,10 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - navigation.sections # in order to see all the sections at the same time (prefer not to use it)
-    - navigation.expand #(to see all the sections when .sections is unable)
+    - navigation.sections
+    - navigation.expand
     - navigation.instant
     - navigation.footer
-    #- toc.integrate # in order to show subtitles in the sidebars (I prefer to hide the subtitles)
     - navigation.top
     - search.suggest
     - search.highlight
@@ -61,17 +55,15 @@ theme:
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode   
+        name: Switch to dark mode
       primary: custom
       accent: custom
-    - scheme: slate  #dark
+    - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode 
+        name: Switch to light mode
       primary: custom
       accent: custom
-
-
 
 markdown_extensions:
   - tables
@@ -93,10 +85,9 @@ markdown_extensions:
   - pymdownx.tilde
   - attr_list
   - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      
+  # Simplified emoji extension configuration
+  - pymdownx.emoji
+
 extra_css:
   - stylesheets/extra.css
 
@@ -112,10 +103,8 @@ extra:
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/lend_book
 
-
 repo_name: LendBook/lendbook-docs
 repo_url: https://github.com/LendBook/lendbook-docs
-
 
 watch:
   - includes
