@@ -1,7 +1,7 @@
 There are three types of market participants in LendBook: **lenders**, **borrowers**, and **takers**.
 
 <figure markdown>
-  ![Image title](../images/market-participants-1.png)
+  ![Image title](../images/market-participants-A.png)
   <em>This diagram encapsulates the relationship of the market participants and LendBook, for a ETH/USDC market (Here lenders can lend USDC, borrowers can borrow USDC with ETH as collateral, and takers can trade USDC for ETH and vice versa).</em>
 </figure>
 
@@ -17,7 +17,7 @@ There are three types of market participants in LendBook: **lenders**, **borrowe
 
 * **Borrowers :** 
 
-    They deposit collateral as limit orders on the other side of the order book in order to borrow assets posted by lenders. 
+    They deposit collateral in an account (in the smart contract) in order to borrow assets posted by lenders. 
 
     They pay interest rates on their borrowing positions. 
 

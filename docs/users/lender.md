@@ -34,7 +34,7 @@ You have supplied quote asset in order to earn interest rates but you do not wan
 
 
 <h2 style="font-weight: bold;">How do I withdraw?</h2>
-To withdraw you need to go to the "My positions" section, select the limit order you wish to withdraw and click on "Withdraw". Select the amount to withdraw and submit the transaction.
+To withdraw you need to go to the "Lend to earn" page and the Withdraw section. Select the limit order you wish to withdraw, the amount to withdraw and submit the transaction.
 
 You would need to make sure there is enough available liquidity (not borrowed) in the pool in order to withdraw. If the utilization rate of the pool is near 100%, you would need to wait for more liquidity to enter from lenders or wait for borrowers to repay some of the borrowing positions. 
 

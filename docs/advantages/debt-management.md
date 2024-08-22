@@ -6,8 +6,8 @@ By choosing the pool-of-orders from which the borrower borrows, he therefore cho
 **To avoid liquidation, the borrower simply needs to follow the market price and remember at what limit price he has placed his loan.**
 
 <figure markdown>
-  ![Image title](../images/debt-management-1.png)
-  <em>Borrowers set the prices at which their positions are closed for a loss and for a profit.</em>
+  ![Image title](../images/debt-management-A.png)
+  <em>Borrowers set the prices at which their positions are closed for a loss.</em>
 </figure>
 
 

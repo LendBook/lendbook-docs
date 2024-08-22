@@ -5,13 +5,8 @@ To borrow an asset, you need to choose the asset you wish to use as collateral a
 **There is then a two-step process:**
 
 
-1. Before borrowing, **you need to deposit some collateral by posting a limit order on the other side of the order book**. 
+1. Before borrowing, **you need to deposit some collateral in the protocol**. 
 
-    Depending on your strategy, you can :
-
-    * post a limit order in a pool-of-orders which is far far away from the market price. This means you don't want the order linked to your collateral to be filled. This is the most similar strategy to the one you're used to when depositing collateral in other lending protocols.
-    * post a limit order in a pool-of-orders close to the market price. If market price goes up, your order will be filled and it means that you've set an exit price (Check out the [Take profit section](../../use-cases/take-profit){target=_blank} for more details).
-    * post multiple limit orders in various pool-of-orders. If you want to progressively take profit.
 
 2. **Then you can borrow from a pool-of-orders**. Each pool has its own limit price and its own interest rate (which depends on its utilization ratio).
 
@@ -24,11 +19,11 @@ To borrow an asset, you need to choose the asset you wish to use as collateral a
     Bob wants to borrow USDC.
     He choose to use ETH as collateral. So he goes to the ETH/USDC market.
 
-    Let's suppose market price is 2110.
+    Let's suppose market price is 3100.
 
-    Bob deposits his collateral as a sell order in the Pool~9190~ at limit price 9190 (This means he doesn't want his order to be filled soon :wink: ).
+    Bob deposits some ETH as collateral in the protocol.
 
-    Then Bob borrows from Pool~1818~. Positions borrowed from this will be liquidated if the market price reaches 1818.
+    Then Bob borrows from Pool~3000~. Positions borrowed from this will be liquidated if the market price reaches 3000.
 
 
 <h2 style="font-weight: bold;">How much I can borrow?</h2>
@@ -61,7 +56,7 @@ In order not to lose part (3%) of the required collateral used for the borrowing
 
 <h2 style="font-weight: bold;">How do I pay back the loan?</h2>
 
-In order to repay the loan you simply go to the Borrowings section of your dashboard and click on the repay button for the asset you borrowed and want to repay. Select the amount to repay and confirm the transaction.
+In order to repay the loan you simply go to the Borrow page and the Repay section. Select the borrowing position you want to repay, the amount to repay and confirm the transaction.
 
 <h2 style="font-weight: bold;">How do I avoid liquidation?</h2>
 

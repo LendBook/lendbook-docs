@@ -58,12 +58,12 @@ The goal of the IR curve is to encourage new lenders to come and deposit liquidi
     For the Pool~2000~, let's calculate the Utilization Rate and the Interest Rate:
     
     <figure markdown>
-      ![Image title](../images/interest-rates-2.png)
+      ![Image title](../images/interest-rates-B.png){width="80%" }
     </figure>
     
     
     <figure markdown>
-      ![Image title](../images/interest-rates-3.png)
+      ![Image title](../images/interest-rates-C.png)
     </figure>
     
     :material-arrow-right: So Bob have to pay an Interest Rate equals to 3.69%.

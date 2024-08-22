@@ -20,11 +20,12 @@ nav:
   - Advantages of LendBook: 
     - No bad debt / No off-chain risk management: advantages/risk-management.md
     - Simple debt management: advantages/debt-management.md
-    - Stop loss and take profit: advantages/stop-loss-take-profit.md
+    #- Stop loss and take profit: advantages/stop-loss-take-profit.md
     - Low liquidation cost: advantages/liquidation-cost.md
-    - High Loan-To-Value: advantages/loan-to-value.md
-    - High leverage: advantages/leverage.md
-    - Yield amplification: advantages/soft-pegged-assets.md
+    - High LTV and high leverage: advantages/loan-to-value-leverage.md
+    #- High Loan-To-Value: advantages/loan-to-value.md
+    #- High leverage: advantages/leverage.md
+    #- Yield amplification: advantages/soft-pegged-assets.md
     - Automated Market Making: advantages/automated-market-making.md
     #- Addressable market: advantages/addressable-market.md
     - Minimized governance: advantages/governance.md
@@ -37,8 +38,8 @@ nav:
 
 theme:
   name: material
-  logo: "images/logo.png"
-  favicon: "images/logo.png"
+  logo: "images/logoLendBook_green_black.png"
+  favicon: "images/logoLendBook_black_green.png"
   font:
     text: Roboto
     code: Roboto Mono
