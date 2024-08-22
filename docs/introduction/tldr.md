@@ -7,7 +7,7 @@ If you don't have time to read everything, or if you want to get an overview bef
 
 * **There are 3 types of market participants**:
       * **Lenders** post limit orders at specified prices which can be borrowed.
-      * **Borrowers** deposit collateral as limit orders in order to borrow assets posted by lenders.
+      * **Borrowers** deposit collateral in order to borrow assets posted by lenders.
       * **Takers** can trade assets when market price reaches the limit price of orders they want to take. No fees applied. 
 
 * **Orders can only be posted within a restricted range of limit prices which are called pool-of-orders.** Orders are grouped into pools to avoid diluting lending liquidity across all possible prices. Each pool-of-orders has an assigned limit price. The pools-of-orders architecture allows lenders to withdraw anytime as long as all there is non-borrowed liquidity in the pool.

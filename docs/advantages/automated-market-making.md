@@ -1,5 +1,5 @@
 
-Orders which assets are filled are automatically replaced in the order book ([Main Rule n°7](../../how-it-works/liquidation){target=_blank}). Lenders choose at which limit price their assets are replaced. By default, their liquidity is posted as a limit order in the pool closest to the market price on the other side of order book.
+Orders which assets are filled are automatically replaced in the order book ([Main Rule n°6](../../how-it-works/rules){target=_blank}). Lenders choose at which limit price their assets are replaced. By default, their liquidity is posted as a limit order in the pool closest to the market price on the other side of order book.
 
 
 !!! note "Example with pools-of-orders spaced with a 10% step: "
