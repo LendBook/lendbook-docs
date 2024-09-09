@@ -17,9 +17,9 @@ This documentation is intended to explain in simple terms all the concepts behin
 <h2 style="font-weight: bold;">What is a LendBook ?</h2> -->
 
 
-<figure markdown>
+<!-- <figure markdown>
   ![Image title](images/meme_panda.png){ width="400" }
-</figure>
+</figure> -->
 
 
 
