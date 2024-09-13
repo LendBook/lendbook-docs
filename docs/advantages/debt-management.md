@@ -13,7 +13,4 @@ By choosing the pool-of-orders from which the borrower borrows, he therefore cho
 
 <h2 style="font-weight: bold;">Check out your excess collateral</h2>
 
-If the borrower doesn't want to over-collateralize his loan, **he can track his [excess collateral](../../how-it-works/liquidation){target=_blank} and when his excess collateral falls below a given threshold, he can repay his loan or add more collateral.**
-
-
-Alternatively, if the borrower doesn't want to bother, he can calculate the maximum interest rate he would need over a desired period of time, and adds this amount to the collateral he has already deposited (There will be a tab in the dapp to calculate this easily).
+If the borrower doesn't want to over-collateralize his loan, he can track his [excess collateral](../../how-it-works/liquidation){target=_blank} and when his excess collateral falls below a given threshold, he can repay his loan or add more collateral.

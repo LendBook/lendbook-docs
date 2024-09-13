@@ -8,9 +8,7 @@ Takers can take all the non-borrowable liquidity in a pool.
 
 <h2 style="font-weight: bold;">Why are there no fees for swapping assets?</h2>
 
-Takers play an important role in LendBook. When a taker takes part of assets in a pool-of-orders, it automatically liquidates part of the borrowing positions from that same pool. So the gas of a taker's transaction is slightly higher than that of conventional swap. But this is balanced out by the fact that the taker doesn't have to pay any fees.
-
-So in order to incentivize them to come and trade on LendBook rather than on a DEX, takers do not pay any fees for swapping assets.
+Takers swap the remaining available assets in tradeable pools. A tradeable pool of loan assets is a pool whose limit price is above market price. Trades by takers signal eligibility of all borrowing positions of the pool to liquidation. Liquidations are triggered and processed atomically with takers' trades, so that when all remaining assets are taken by takers, all borrowing positions are also liquidated.
 
 <h2 style="font-weight: bold;">Who are the takers?</h2>
 

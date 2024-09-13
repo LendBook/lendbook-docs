@@ -10,17 +10,17 @@ In LendBook, **there are two types of liquidation:**
 
 In LendBook, when the price crosses a limit price, the closing of a borrowing position does not rely on the active monitoring of liquidators but on that of takers. Takers, by taking the non-borrowed part of the assets, initiate the internal transfer from the borrowers to the lenders.
 
-**Borrowers pay liquidation fees to lenders (fee rate is between 1 and 5%, depending on asset volatility).** The goal is to compensate lenders for receiving the collateral and give borrowers incentives to repay their loan before liquidation. 
+**Borrowers pay liquidation fees to lenders (fee rate is between 0.5 and 5%, depending on asset volatility).** The goal is to compensate lenders for receiving the collateral and give borrowers incentives to repay their loan before liquidation. 
 
 Since lenders agree to receive the collateral as a payment (plus liquidation fees), the protocol does not need to incentivize bots to liquidate unhealthy positions on time. 
 
 
 | Asset tier      | Liquidation fees                          | Examples |
 | :----------: | :-----------------------------------:  | :--------: |
-| Pegged assets       | 1%  | *DAI/USDC, wstETH/ETH* |
-| Correlated assets     | 2% | *USDM/USDC, FRAX/USDC* |
-| Volatile assets    | 4% | *ETH/USDC, WBTC/ETH* |
-| Long-tail assets (in V2)    | 6% | *MKR/ETH, LINK/ETH*|
+| Pegged assets       | 0.5%  | *DAI/USDC, wstETH/ETH* |
+| Correlated assets     | 1% | *USDM/USDC, FRAX/USDC* |
+| Volatile assets    | 3% | *ETH/USDC, WBTC/ETH* |
+| Long-tail assets (in V2)    | 5% | *MKR/ETH, LINK/ETH*|
 
 
 <h2 style="font-weight: bold;">Interest-based liquidation</h2>
@@ -40,7 +40,7 @@ Excess collateral can decrease depending on two aspects:
 
     * **Total Collateral (TC) :** The sum of all the assets deposited in limit orders as collateral by the borrower
     * **Required Collateral (RC) :** The sum of collateral needed to repay all the borrowing positions, pay interest fees, and pay a possible price-based liquidation fee
-    * **Liquidation Loan-To-Value (LLTV) :** In order to liquidate the position before there really isn't enough collateral left, we add this variable. This provides a safety zone to protect lenders from borrowers’ insolvency due to a growing debt burden. Since the interest rate is slowly increasing, the LLTV can be set close to 100% (e.i. 99%).
+    * **Liquidation Loan-To-Value (LLTV) :** In order to liquidate the position before there really isn't enough collateral left, we add this variable. This provides a safety zone to protect lenders from borrowers’ insolvency due to a growing debt burden. 
 
     So we have :
 

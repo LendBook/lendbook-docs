@@ -3,12 +3,12 @@
 For each type of asset pair, we can calculate the interval of maxLTV for the pool-of-orders closest to the market price :
 
 
-| Asset tier                | aLTV  | pool step  |  MaxLTV for pool closest to market price  |Examples |
+| Asset tier                | LLTV  | pool step  |  MaxLTV for pool closest to market price  |Examples |
 | :----------:              | :----:| :----:| :----:| :--------: |
-| Pegged assets             | 98.5% | 0.1% | **from 98.4% to 98.5%** | *DAI/USDC, wstETH/ETH* |
-| Correlated assets         | 96%   | 1% | **from 95% to 96%**  | *USDM/USDC, FRAX/USDC* |
-| Volatile assets           | 94%   | 10% | **from 84.6% to 94%**  | *ETH/USDC, WBTC/ETH* |
-| Long-tail assets <br>(in V2)  | 92%   | 15% | **from 78.2% to 92%**  | *MKR/ETH, LINK/ETH*|
+| Pegged assets             | 99% | 0.03% | **from 98.9% to 99%** | *DAI/USDC, wstETH/ETH* |
+| Correlated assets         | 98%   | 1% | **from 97% to 98%**  | *USDM/USDC, FRAX/USDC* |
+| Volatile assets           | 96%   | 10% | **from 87.3% to 96%**  | *ETH/USDC, WBTC/ETH* |
+| Long-tail assets <br>(in V2)  | 94%   | 15% | **from 81.7% to 94%**  | *MKR/ETH, LINK/ETH*|
 
 
 
@@ -34,7 +34,7 @@ As the limit price gets closer to the market price, the max LTV tends to aLTV. W
 
 | Asset tier                | MaxLTV  | Theoretical Max leverage  |Examples |
 | :----------:              | :----:| :----:| :--------: |
-| Pegged assets             | 98.5% | x66 |  *DAI/USDC, wstETH/ETH* |
-| Correlated assets         | 96%   | x25 |  *USDM/USDC, FRAX/USDC* |
-| Volatile assets           | 94%   | x16 |  *ETH/USDC, WBTC/ETH* |
-| Long-tail assets <br>(in V2)  | 92%   | x12 |  *MKR/ETH, LINK/ETH*|
+| Pegged assets             | 99% | x100 |  *DAI/USDC, wstETH/ETH* |
+| Correlated assets         | 98%   | x50 |  *USDM/USDC, FRAX/USDC* |
+| Volatile assets           | 96%   | x25 |  *ETH/USDC, WBTC/ETH* |
+| Long-tail assets <br>(in V2)  | 94%   | x16 |  *MKR/ETH, LINK/ETH*|

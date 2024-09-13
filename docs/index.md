@@ -9,7 +9,7 @@
 LendBook is a **Lending Limit Order Book**. It's the fusion of a limit order book and a lending protocol. LendBook is a non-custodial and permissionless **lending protocol that enables users to borrow limit orders’ assets**. 
 
 
-LendBook was design to be **the most robust protocol to supply and borrow assets**.
+LendBook was designed to be **the most robust protocol** for supplying, borrowing, and achieving **the highest leverage** in the market.
 
 <!-- **Even if LendBook is an innovative lending protocol, it's easy to grasp**. 
 This documentation is intended to explain in simple terms all the concepts behind this protocol and all the possibilities offered by LendBook to its users.

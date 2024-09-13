@@ -27,7 +27,7 @@ The main rules are :
         
         When market price reaches the limit price of Pool~3000~ , a taker trades a portion of the assets that are not borrowed. This automatically closes Bob's position and Bob's collateral is transfered to Alice (and other lenders). 
 
-* **Interest rates are shared between all the lenders of a pool.**
+* **Interest rates are shared between all lenders of the pool.**
     
     Borrowers pay interest rates to all the lenders in the pool they borrow from. 
     
@@ -55,9 +55,7 @@ The main rules are :
 
     When a buy order is filled, the converted assets are replaced as a new sell order on the other side of the order book. 
     
-    The new limit price may have been specified by the lender, or, in the absence of such specification, at the same limit price. 
-    
-    By default, the order is placed in the same pool but as sell order (as it is the base asset). Lenders can then withdraw the assets or change the limit price if they wish. 
+    The new limit price may have been specified by the lender, or, in the absence of such specification, at the same limit price. By default, the order is placed in the same pool but as sell order (as it is the base asset). Lenders can then withdraw the assets or change the limit price if they wish. 
 
     Once the market price crosses again the limit price of this pool, the sell orders are taken and the lender gets back his quote assets. In the same way, the quote asset are then placed as buy order in the same pool. These buy orders can now be borrowed.
 
